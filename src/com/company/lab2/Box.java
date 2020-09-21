@@ -12,15 +12,15 @@ public class Box {
         depth = 1;
     }
 
-    Box(double x) {
-        height = x;
-        width = x;
-        depth = x;
+    Box(double measure) {
+        height = measure;
+        width = measure;
+        depth = measure;
     }
 
-    Box(double x, double y, double z) {
-        height = x;
-        width = y;
-        depth = z;
+    Box(double height_, double width_, double depth_) {
+        height = height_;
+        width = width_;
+        depth = depth_;
     }
 }
