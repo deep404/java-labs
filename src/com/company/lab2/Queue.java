@@ -6,14 +6,16 @@ public class Queue {
     int last;      // end points to last element in the queue;
     int capacity; // maximum capacity of the queue;
     int count;    // current capacity of the queue;
+    boolean unlimited;
 
-
+    //Constructor to initialize queue
     Queue(){
         arr = new int[10000007];
         capacity = 10000007;
         front = 0;
         last = -1;
         count = 0;
+        unlimited = true;
     }
 
 
@@ -24,6 +26,7 @@ public class Queue {
         front = 0;
         last = -1;
         count = 0;
+        unlimited = false;
     }
 
     //Function to remove front element from the queue
@@ -84,6 +87,28 @@ public class Queue {
     public Boolean isFull(){
 
         return(size() == capacity);
+    }
+
+    public void IsFull() {
+
+        if (size() == capacity && !unlimited) {
+            System.out.println("Queue is full");
+        }
+        else if(size() != capacity && !unlimited) {
+            System.out.println("Queue is not full");
+        }
+        if (unlimited) {
+            System.out.println("Queue is never full");
+        }
+    }
+    public void IsEmpty(){
+
+        if(size() == 0){
+            System.out.println("Queue is empty");
+        }else {
+            System.out.println("Queue is not empty");
+        }
+
     }
 
 

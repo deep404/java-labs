@@ -10,11 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51906822-c540-4689-8b8a-89b2e636c3d7" name="Default Changelist" comment="Update box class with parameterized construstor, plus 3 examples">
+    <list default="true" id="51906822-c540-4689-8b8a-89b2e636c3d7" name="Default Changelist" comment="Create Queue class and make the intermediate task from the second lab">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-labs/com/company/lab2/Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-labs/com/company/lab2/Box.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-labs/com/company/lab2/basic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-labs/com/company/lab2/basic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-labs/com/company/lab2/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-labs/com/company/lab2/Queue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/lab2/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/lab2/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/lab2/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/lab2/Queue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,20 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.intermediate (1)">
+  <component name="RunManager" selected="Application.advanced (1)">
+    <configuration name="advanced (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.lab2.advanced" />
+      <module name="java-labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="advanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.lab1.advanced" />
       <module name="java-labs" />
@@ -68,19 +82,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.lab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.lab1.basic" />
-      <module name="java-labs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.lab1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,19 +129,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.basic" />
       <item itemvalue="Application.intermediate" />
       <item itemvalue="Application.advanced" />
       <item itemvalue="Application.basic (1)" />
       <item itemvalue="Application.intermediate (1)" />
+      <item itemvalue="Application.advanced (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.advanced (1)" />
         <item itemvalue="Application.intermediate (1)" />
         <item itemvalue="Application.basic (1)" />
         <item itemvalue="Application.advanced" />
         <item itemvalue="Application.intermediate" />
-        <item itemvalue="Application.basic" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600671598286</updated>
       <workItem from="1600671599281" duration="3837000" />
-      <workItem from="1600675464181" duration="11750000" />
+      <workItem from="1600675464181" duration="14149000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit: First lab for Java OOP course">
       <created>1600675655493</created>
@@ -204,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600681261778</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Create Queue class and make the intermediate task from the second lab">
+      <created>1600692920341</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600692920341</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +241,8 @@
     <MESSAGE value="Add .gitignore file" />
     <MESSAGE value="Add Box class from the 2 lab" />
     <MESSAGE value="Update box class with parameterized construstor, plus 3 examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update box class with parameterized construstor, plus 3 examples" />
+    <MESSAGE value="Create Queue class and make the intermediate task from the second lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Queue class and make the intermediate task from the second lab" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="221" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600673573017">
@@ -248,26 +257,42 @@
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
     <state x="1318" y="460" key="Github.ShareDialog/0.46.1920.1034@0.46.1920.1034" timestamp="1600676070733" />
-    <state width="928" height="279" key="GridCell.Tab.0.bottom" timestamp="1600692430267">
+    <state width="928" height="279" key="GridCell.Tab.0.bottom" timestamp="1600695522892">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state width="928" height="279" key="GridCell.Tab.0.bottom/0.46.1920.1034@0.46.1920.1034" timestamp="1600692430267" />
-    <state width="928" height="279" key="GridCell.Tab.0.center" timestamp="1600692430266">
+    <state width="928" height="279" key="GridCell.Tab.0.bottom/0.46.1920.1034@0.46.1920.1034" timestamp="1600695522892" />
+    <state width="928" height="279" key="GridCell.Tab.0.center" timestamp="1600695522892">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state width="928" height="279" key="GridCell.Tab.0.center/0.46.1920.1034@0.46.1920.1034" timestamp="1600692430266" />
-    <state width="928" height="279" key="GridCell.Tab.0.left" timestamp="1600692430266">
+    <state width="928" height="279" key="GridCell.Tab.0.center/0.46.1920.1034@0.46.1920.1034" timestamp="1600695522892" />
+    <state width="928" height="279" key="GridCell.Tab.0.left" timestamp="1600695522891">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state width="928" height="279" key="GridCell.Tab.0.left/0.46.1920.1034@0.46.1920.1034" timestamp="1600692430266" />
-    <state width="928" height="279" key="GridCell.Tab.0.right" timestamp="1600692430267">
+    <state width="928" height="279" key="GridCell.Tab.0.left/0.46.1920.1034@0.46.1920.1034" timestamp="1600695522891" />
+    <state width="928" height="279" key="GridCell.Tab.0.right" timestamp="1600695522892">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state width="928" height="279" key="GridCell.Tab.0.right/0.46.1920.1034@0.46.1920.1034" timestamp="1600692430267" />
-    <state x="1032" y="295" key="Vcs.Push.Dialog.v2" timestamp="1600681277626">
+    <state width="928" height="279" key="GridCell.Tab.0.right/0.46.1920.1034@0.46.1920.1034" timestamp="1600695522892" />
+    <state width="928" height="344" key="GridCell.Tab.1.bottom" timestamp="1600694886272">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state x="1032" y="295" key="Vcs.Push.Dialog.v2/0.46.1920.1034@0.46.1920.1034" timestamp="1600681277626" />
+    <state width="928" height="344" key="GridCell.Tab.1.bottom/0.46.1920.1034@0.46.1920.1034" timestamp="1600694886272" />
+    <state width="928" height="344" key="GridCell.Tab.1.center" timestamp="1600694886272">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state width="928" height="344" key="GridCell.Tab.1.center/0.46.1920.1034@0.46.1920.1034" timestamp="1600694886272" />
+    <state width="928" height="344" key="GridCell.Tab.1.left" timestamp="1600694886272">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state width="928" height="344" key="GridCell.Tab.1.left/0.46.1920.1034@0.46.1920.1034" timestamp="1600694886272" />
+    <state width="928" height="344" key="GridCell.Tab.1.right" timestamp="1600694886272">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state width="928" height="344" key="GridCell.Tab.1.right/0.46.1920.1034@0.46.1920.1034" timestamp="1600694886272" />
+    <state x="1032" y="295" key="Vcs.Push.Dialog.v2" timestamp="1600692924499">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state x="1032" y="295" key="Vcs.Push.Dialog.v2/0.46.1920.1034@0.46.1920.1034" timestamp="1600692924499" />
     <state x="1257" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600676420553">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
