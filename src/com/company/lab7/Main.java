@@ -2,7 +2,7 @@ package com.company.lab7;
 
 public class Main{
 
-    public static void main(String[] args){
+    public static void main(String args[]){
         Square square = new Square(5);
         Rectangle rectangle = new Rectangle(3,2);
         Triangle triangle = new Triangle(10,5,6);
